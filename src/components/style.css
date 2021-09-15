@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    font-family:Poppins;
+   
+}
+.base-container{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px white;
+}
+.base-container .content{
+   
+}
+
+
+.base-container .form{
+    width: 50%;
+}
+.base-container .user-list{
+    width: 50%;
+}
+.base-container .form .tag h2{
+        margin: 45px 0px -20px 0px;
+}
+
+.base-container .form input{
+
+background:none;
+    margin: 18px 0px 0px 0px ;
+
+    padding-bottom: 0px;;
+    font-size: 13px;
+    outline: none;
+    color: black;
+    border: none;
+}
+
+.base-container .form .formdiv .errors{
+    margin:0px 0px 0px 86px;
+    color: red;
+    font-size: 12px;
+}
+
+.base-container .form .formdiv .lastdiv .chkbox  input#vehicle1{
+    margin: 26px 4px 10px 85px;
+}
+.base-container .form .formdiv .lastdiv .forgotpassword{
+    margin: 21px 2px 2px 27px;
+}
+.base-container .form .formdiv .lastdiv .forgotpassword a{
+    color: #61acb3 ;
+}
+.base-container .form .formdiv .lastdiv{
+    display: inline-flex;
+}
+.base-container .form .tag{
+    margin: 0px 0px 0px 155px;
+}
+
+
+.base-container .form .formdiv .form-group{
+    width: 40%;
+    border-bottom:1.5px solid black;
+    margin :0px 0px 0px 84px;
+}
+.base-container .form .formdiv .footer .btn{
+display: block;
+  width: 40%;
+  border: none;
+  background-color:  #61acb3;
+  margin: 29px 0px 0px 80px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 100px;
+  color: white;
+  font-weight: 18px;
+}
+.base-container .form .formdiv .footer p{
+    margin:110px 0px 2px 94px;
+}
+.base-container  .content .Image img{
+    width :600px;
+    height:500px;
+}
+.base-container table{
+    width: 50%;
+    
+}
